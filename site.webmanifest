@@ -1,0 +1,14 @@
+{
+  "name": "АвтоБум — авто и запчасти из Кореи",
+  "short_name": "АвтоБум",
+  "description": "Оригинальные запчасти, шины, диски и автомобили из Кореи с доставкой по России.",
+  "lang": "ru",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F1214",
+  "theme_color": "#0F1214",
+  "icons": [
+    { "src": "/assets/favicon/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/assets/favicon/favicon-180.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
