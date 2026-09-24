@@ -186,7 +186,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-h);line-height:1.1;font-weight:700}
 }
 .hero::before{
   content:"";position:absolute;inset:0;z-index:0;
-  background-image:url("/assets/img/hero/hero-new.webp");
+  background-image:url("assets/img/hero/hero-new.webp");
   background-size:cover;background-position:center;background-repeat:no-repeat
 }
 .hero::after{
@@ -305,7 +305,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-h);line-height:1.1;font-weight:700}
 }
 .discph::before{
   content:"";position:absolute;inset:0;z-index:0;
-  background-image:url("/assets/img/wheels-plate.jpeg");
+  background-image:url("assets/img/wheels-plate.jpeg");
   background-size:cover;background-position:center;transform:scaleX(-1)
 }
 .discph::after{
