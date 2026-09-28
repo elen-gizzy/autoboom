@@ -17,12 +17,12 @@
 <!--
   ПЛЕЙСХОЛДЕРЫ (продублированы константами в начале script.js):
   {{PHONE}}            = +7 (962) 164-31-46
-  {{EMAIL}}            = info@autoboom.ru
+  {{EMAIL}}            = nds_137@mail.ru
   {{ADDRESS}}          = г. Иваново, ул. Красных Зорь, 8
   {{TG_URL}}           = https://t.me/nds137rus
   {{MAX_URL}}          = https://max.ru/join/oWU05l0ZbDzXZfgCS7OIA2gwcXUiGLxqePAqBYwK_jc
   {{VK_URL}}           = https://vk.ru/id131766175
-  {{YT_URL}}           = https://youtube.com/@autoboom
+  {{AVITO_URL}}        = https://www.avito.ru/user/2ca2b7c6974ec5e779435b1f522c114f/profile/all?src=sharing&sellerId=2ca2b7c6974ec5e779435b1f522c114f
   autoboom.ru           = autoboom.ru
   {{FORM_ENDPOINT}}    = https://api.autoboom.ru/lead
   {{METRIKA_ID}}       = 00000000
@@ -170,7 +170,7 @@
 <link rel="preload" href="assets/fonts/inter-400-6.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/img/hero/hero-new.webp" as="image">
 <link rel="stylesheet" href="assets/fonts/fonts.css">
-<link rel="stylesheet" href="styles.css?v=225">
+<link rel="stylesheet" href="styles-20260928-21.css">
 </head>
 <body>
 
@@ -182,6 +182,8 @@
     </a>
     <nav class="nav" id="nav" aria-label="Основная навигация">
       <a class="nav__link" href="#parts">Запчасти</a>
+      <a class="nav__link" href="#engine">Двигатель</a>
+      <a class="nav__link" href="#oils">Автомасла</a>
       <a class="nav__link" href="#tires">Шины</a>
       <a class="nav__link" href="#wheels">Диски</a>
       <a class="nav__link" href="#cars">Покупка авто</a>
@@ -213,6 +215,8 @@
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
   </button>
   <a class="nav__link" href="#parts">Запчасти</a>
+  <a class="nav__link" href="#engine">Двигатель</a>
+  <a class="nav__link" href="#oils">Автомасла</a>
   <a class="nav__link" href="#tires">Шины</a>
   <a class="nav__link" href="#wheels">Диски</a>
   <a class="nav__link" href="#cars">Покупка авто</a>
@@ -227,7 +231,7 @@
     <div class="container">
       <div class="hero__inner">
         <h1 class="hero__title">Оригинальные запчасти, шины, диски и&nbsp;авто из&nbsp;Кореи</h1>
-        <p class="hero__sub">Возим напрямую с&nbsp;корейских складов и аукционов. Без посредников — поэтому дешевле,<br>чем в магазинах и&nbsp;у&nbsp;дилеров. Подберём деталь по VIN за 15 минут.</p>
+        <p class="hero__sub">Возим напрямую&nbsp;с корейских складов&nbsp;и аукционов. Без посредников&nbsp;— поэтому дешевле,&nbsp;чем&nbsp;в магазинах&nbsp;и&nbsp;у дилеров. Подберём деталь&nbsp;по VIN&nbsp;за&nbsp;15&nbsp;и минут.</p>
         <div class="hero__actions">
           <button class="btn btn--primary" data-goto-request="parts">Подобрать запчасть</button>
           <button class="btn btn--secondary" data-goto-request="car">Рассчитать авто из Кореи</button>
@@ -249,9 +253,9 @@
             <p class="utp__text">Экспресс-авиа и морем, срок в договоре.</p>
           </div>
           <div class="utp__item">
-            <svg class="utp__icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2.5h8l4 4V21.5H6z"/><path d="M14 2.5V7h4"/><path d="M9 13l2 2 3.5-3.5"/></svg>
-            <h3 class="utp__title">Гарантия и возврат</h3>
-            <p class="utp__text">12 месяцев на оригинал, замена за наш счёт.</p>
+            <svg class="utp__icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M9.3 9.3l5.4 2.7-5.4 2.7z"/></svg>
+            <h3 class="utp__title">Фото и видеоотчёт</h3>
+            <p class="utp__text">Фиксируем состояние товара на фото и видео до отправки.</p>
           </div>
         </div>
       </div>
@@ -276,9 +280,9 @@
         <p class="utp__text">Экспресс-авиа и морем, срок в договоре.</p>
       </div>
       <div class="utp__item">
-        <svg class="utp__icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2.5h8l4 4V21.5H6z"/><path d="M14 2.5V7h4"/><path d="M9 13l2 2 3.5-3.5"/></svg>
-        <h3 class="utp__title">Гарантия и возврат</h3>
-        <p class="utp__text">12 месяцев на оригинал, замена за наш счёт.</p>
+        <svg class="utp__icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M9.3 9.3l5.4 2.7-5.4 2.7z"/></svg>
+        <h3 class="utp__title">Фото и видеоотчёт</h3>
+        <p class="utp__text">Фиксируем состояние товара на фото и видео до отправки.</p>
       </div>
     </div>
   </div>
@@ -338,21 +342,78 @@
     </div>
   </section>
 
-  <!-- [04] Шины -->
+  <!-- [04] Двигатель, ГБЦ и блок цилиндров -->
+  <section class="section" id="engine">
+    <div class="container">
+      <div class="sec-head">
+        <h2 class="sec-title"><span class="sec-ac">Двигатель, ГБЦ и&nbsp;блок цилиндров</span><br class="br-sm"><span class="eng-head-tail"> под&nbsp;заказ<br class="nowrap-br"><span class="nowrap-sm">&nbsp;— привозим в&nbsp;Иваново</span></span></h2>
+        <div class="eng-intro">
+          <article class="eng-plank" style="--img:url('assets/img/tires/summer.jpeg')">
+          </article>
+          <div class="eng-aside">
+            <p class="sec-lead">Привозим двигатели, головки блока цилиндров и&nbsp;блоки двигателей для&nbsp;автомобилей корейских марок. Подбираем по&nbsp;VIN или&nbsp;номеру, согласовываем цену и&nbsp;срок до&nbsp;отправки в&nbsp;Иваново.</p>
+            <ul class="eng-list">
+              <li class="eng-list__item">
+                <span class="eng-list__term">Двигатель в&nbsp;сборе.</span>
+                <span class="eng-list__text">Полный ДВС с&nbsp;навесным оборудованием или&nbsp;без&nbsp;него.</span>
+              </li>
+              <li class="eng-list__item">
+                <span class="eng-list__term">Головка блока цилиндров (ГБЦ).</span>
+                <span class="eng-list__text">Привозим головки в&nbsp;сборе и&nbsp;без, с&nbsp;клапанами и&nbsp;распредвалами или&nbsp;отдельно.</span>
+              </li>
+              <li class="eng-list__item">
+                <span class="eng-list__term">Блок цилиндров.</span>
+                <span class="eng-list__text">Поставляем блоки двигателей отдельно, а&nbsp;также в&nbsp;комплекте с&nbsp;коленвалом и&nbsp;поршнями.</span>
+              </li>
+              <li class="eng-list__item">
+                <span class="eng-list__term">Комплектующие и&nbsp;ГРМ.</span>
+                <span class="eng-list__text">Помпы, ремни, цепи, натяжители, прокладки — собираем полный комплект для&nbsp;ремонта двигателя.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- [05] Автомасла -->
+  <section class="section" id="oils">
+    <div class="container">
+      <div class="sec-head">
+        <h2 class="sec-title"><span class="sec-ac">Автомасла в&nbsp;Иваново:</span><br class="br-d"> подбор по&nbsp;VIN и&nbsp;марке авто</h2>
+        <p class="sec-lead">Привозим моторные и&nbsp;трансмиссионные масла для&nbsp;автомобилей любых марок. В&nbsp;наличии синтетика, полусинтетика и&nbsp;минеральные масла для&nbsp;бензиновых и&nbsp;дизельных двигателей, а&nbsp;также масла для&nbsp;МКПП, АКПП, вариаторов (CVT) и&nbsp;роботов (DCT). Цены ниже розничных на&nbsp;15–30% — вы&nbsp;платите за&nbsp;продукт, а&nbsp;не&nbsp;за посредников.</p>
+        <p class="sec-lead">Подбираем масло по&nbsp;VIN, марке и&nbsp;модели авто. Консультируем по&nbsp;допускам и&nbsp;вязкости: расскажем, какое масло подходит именно вашему двигателю или коробке передач, и&nbsp;как часто его менять. Поможем не&nbsp;ошибиться с&nbsp;выбором и&nbsp;сэкономить без&nbsp;потери качества.</p>
+      </div>
+
+      <div class="plaque">
+        <div class="plaque__in">
+          <div class="plaque-tiles">
+            <article class="plaque-tile">
+              <svg class="plaque-tile__icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M13 3c3.6 4 5.85 7.1 5.85 11.15a6.85 6.85 0 0 1-13.7 0c0-4.05 2.25-7.15 7.85-11.15Z"/><path d="M9.2 16.4a3.3 3.3 0 0 0 3.3 3.3"/></svg>
+              <h3 class="plaque-tile__title">Моторные масла</h3>
+              <p class="plaque-tile__text">Синтетика, полусинтетика и&nbsp;минеральные масла для&nbsp;бензиновых и&nbsp;дизельных двигателей. Подбор по&nbsp;допускам API, ACEA, ILSAC и&nbsp;рекомендациям производителя. Защита от&nbsp;износа, лёгкий запуск зимой, стабильная работа в&nbsp;пробках.</p>
+            </article>
+            <article class="plaque-tile">
+              <svg class="plaque-tile__icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="5.43" r="2.43"/><path d="M12 7.85v3.58"/><circle cx="5.49" cy="11.43" r="2.43"/><circle cx="18.51" cy="11.43" r="2.43"/><path d="M5.49 11.43h13.02"/><path d="M12 13.85v2.3"/><circle cx="8.17" cy="18.57" r="2.43"/><circle cx="15.83" cy="18.57" r="2.43"/><path d="M8.17 18.57h7.66"/></svg>
+              <h3 class="plaque-tile__title">Трансмиссионные масла</h3>
+              <p class="plaque-tile__text">Масла для&nbsp;МКПП, АКПП, вариаторов (CVT), роботов (DCT). Подбор по&nbsp;спецификациям ATF, CVT, DCT, MTF. Обеспечивают плавное переключение, защиту от&nbsp;перегрева и&nbsp;продлевают срок службы коробки.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- [05] Шины -->
   <section class="section" id="tires">
     <div class="container">
       <div class="sec-head">
-        <h2 class="sec-title"><span class="sec-ac">Шины из&nbsp;Кореи:</span> оригинальная<br class="br-d"> резина <span class="sec-ac">без&nbsp;переплаты</span></h2>
-        <p class="sec-lead">Hankook, Kumho, Nexen и&nbsp;Laufenn мы берём на&nbsp;корейском внутреннем рынке — это тот же завод и&nbsp;те же составы смеси, что&nbsp;идут на&nbsp;конвейер Hyundai и&nbsp;Kia. Никакого «серого» стока и&nbsp;шин, пролежавших три сезона на&nbsp;складе: дата производства свежая, её видно на&nbsp;фото до&nbsp;отправки.</p>
-        <p class="sec-lead">Комплект из&nbsp;четырёх шин с&nbsp;доставкой обходится дешевле, чем&nbsp;в&nbsp;российской рознице, на&nbsp;20–35%. Разницу вы видите в&nbsp;расчёте: мы показываем цену за&nbsp;штуку и&nbsp;за&nbsp;комплект с&nbsp;доставкой до&nbsp;вашего города.</p>
+        <h2 class="sec-title"><span class="sec-ac">Шины в&nbsp;Иваново:</span><br class="br-d"> резина <span class="sec-ac">без&nbsp;переплаты</span></h2>
+        <p class="sec-lead">Мы работаем&nbsp;с&nbsp;проверенными поставщиками&nbsp;и&nbsp;предлагаем шины&nbsp;от&nbsp;надёжных производителей. Никакого «серого» стока&nbsp;и&nbsp;шин, пролежавших три сезона&nbsp;на&nbsp;складе: дата производства всегда свежая, её видно&nbsp;на&nbsp;фото&nbsp;до&nbsp;отправки.</p>
+        <p class="sec-lead">Комплект&nbsp;из&nbsp;четырёх шин&nbsp;с&nbsp;доставкой обходится дешевле, чем&nbsp;в&nbsp;российской рознице,&nbsp;на&nbsp;20–35%. Разницу вы видите&nbsp;в&nbsp;расчёте: мы показываем цену за&nbsp;штуку и&nbsp;за&nbsp;комплект с&nbsp;доставкой до&nbsp;вашего города.</p>
       </div>
 
-      <!--
-        ПЛАШКИ-ПЛАНКИ ШИН: карусель по 2 (как категории запчастей, стрелки .tires__nav,
-        JS renderTires, TIRES_PER=2). Полноширинная картинка, слева внизу полупрозрачная плитка.
-        Фон каждой плашки своё реальное фото из assets/img/tires/ (style="--img:...").
-      -->
-      <div class="tires-list">
+      <div class="tires-list" role="region" aria-label="Типы шин" aria-roledescription="карусель">
         <article class="tire-plank" style="--img:url('assets/img/tires/summer.jpeg')">
           <div class="tire-plank__panel">
             <h3 class="tire-plank__title">Летние</h3>
@@ -393,9 +454,9 @@
   <section class="section" id="wheels">
     <div class="container">
       <div class="sec-head">
-        <h2 class="sec-title"><span class="sec-ac">Диски: оригинал</span> и&nbsp;качественные<br class="br-d"> реплики <span class="sec-ac">с&nbsp;корейских складов</span></h2>
-        <p class="sec-lead">Оригинальные диски Hyundai, Kia и&nbsp;Genesis проходят заводские испытания на&nbsp;удар и&nbsp;усталость — они не «ведут» при попадании в&nbsp;яму и&nbsp;держат геометрию годами. Мы привозим и оригинал по&nbsp;каталожному номеру, и&nbsp;лицензированные реплики корейского производства, если&nbsp;нужно уложиться в&nbsp;бюджет.</p>
-        <p class="sec-lead">За счёт прямой поставки комплект выходит дешевле российской розницы. Подбираем строго по&nbsp;параметрам вашей машины: диаметр, ширина, вылет ET, разболтовка PCD и&nbsp;диаметр ступичного отверстия DIA — чтобы диск встал без проставок и&nbsp;биения.</p>
+        <h2 class="sec-title"><span class="sec-ac">Диски по&nbsp;выгодным ценам</span> <span class="sec-ac">—&nbsp;</span><br class="br-d"><span class="sec-ac">без&nbsp;переплаты</span> и&nbsp;лишних наценок</h2>
+        <p class="sec-lead">Диски от&nbsp;проверенных производителей проходят заводские испытания на&nbsp;удар и&nbsp;усталость — они не&nbsp;«ведут» при&nbsp;попадании в&nbsp;яму и&nbsp;держат геометрию годами. Мы подбираем и&nbsp;привозим варианты под&nbsp;любой бюджет.</p>
+        <p class="sec-lead">Подбираем строго по&nbsp;параметрам вашей машины: диаметр, ширина, вылет ET, разболтовка PCD и&nbsp;диаметр ступичного отверстия DIA — чтобы диск встал без&nbsp;проставок и&nbsp;биения.</p>
       </div>
 
       <div class="discph">
@@ -657,7 +718,7 @@
         <!-- ТАБ: Запчасти, шины, диски -->
         <div class="rq__panel" id="rqP1" role="tabpanel" aria-labelledby="rqT1">
           <form class="rq__form" data-form="parts" novalidate>
-            <h3 class="rq__title">Подберём деталь, шины или диски</h3>
+            <h3 class="rq__title">Подберём деталь, шины, диски, масло</h3>
             <div class="rq__grid">
               <div class="field">
                 <label for="p1-what">Что нужно</label>
@@ -665,6 +726,8 @@
                   <option value="parts">Запчасти</option>
                   <option value="tires">Шины</option>
                   <option value="wheels">Диски</option>
+                  <option value="engine">Двигатель</option>
+                  <option value="oils">Автомасло</option>
                 </select>
               </div>
               <div class="field">
@@ -805,7 +868,7 @@
       <div class="vk-widget" id="vk_comments"></div>
       -->
 
-      <div class="shots">
+      <div class="shots" role="region" aria-label="Отзывы клиентов" aria-roledescription="карусель">
         <figure class="shot">
           <button type="button" class="shot__btn" data-zoom="assets/img/reviews/rev-main.webp" aria-label="Открыть скриншот">
             <img src="assets/img/reviews/rev-main.webp" alt="Скриншот отзыва: Сергей, Kia Sportage 2022, Казань" width="600" height="800" loading="lazy">
@@ -884,12 +947,14 @@
       <div class="contacts__top">
         <div class="contacts__col">
           <h2 class="contacts__title">Контакты</h2>
-          <a class="contacts__email" href="mailto:info@autoboom.ru">info@autoboom.ru</a>
+          <a class="contacts__email" href="mailto:nds_137@mail.ru">nds_137@mail.ru</a>
           <a class="contacts__phone" href="tel:+79621643146">+7 (962) 164-31-46</a>
         </div>
         <div class="contacts__col">
           <nav class="contacts__nav" aria-label="Навигация по сайту">
             <a href="#parts">Запчасти</a>
+            <a href="#engine">Двигатель</a>
+            <a href="#oils">Автомасла</a>
             <a href="#tires">Шины</a>
             <a href="#wheels">Диски</a>
             <a href="#cars">Покупка авто</a>
@@ -916,9 +981,9 @@
           <svg viewBox="0 0 46 24" fill="currentColor" aria-hidden="true"><text x="23" y="17" text-anchor="middle" font-family="'Google Sans',Inter,sans-serif" font-size="15" font-weight="800" letter-spacing="1">VK</text></svg>
           <span>Написать Вконтакте</span>
         </a>
-        <a class="channel" href="https://youtube.com/@autoboom" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4.5"/><path d="M10.4 9.3v5.4l4.6-2.7z"/></svg>
-          <span>Смотреть <br class="ch-br">на Youtube</span>
+        <a class="channel" href="https://www.avito.ru/user/2ca2b7c6974ec5e779435b1f522c114f/profile/all?src=sharing&amp;sellerId=2ca2b7c6974ec5e779435b1f522c114f" target="_blank" rel="noopener">
+          <svg viewBox="0 0 80 24" fill="currentColor" aria-hidden="true"><text x="40" y="17" text-anchor="middle" font-family="'Google Sans',Inter,sans-serif" font-size="15" font-weight="800" letter-spacing="1">АВИТО</text></svg>
+          <span>Смотреть <br class="ch-br">на Авито</span>
         </a>
       </div>
 
@@ -931,7 +996,7 @@
 
 <footer class="footer">
   <div class="container footer__in">
-    <p class="footer__copy">© 2026 АвтоБум. Запчасти и авто из Кореи.</p>
+    <p class="footer__copy">© 2026 ИП Носков Д. С. Запчасти и авто из Кореи.</p>
     <nav class="footer__links" aria-label="Правовые документы">
       <a href="policy.html" target="_blank" rel="noopener">Политика конфиденциальности</a>
       <a href="policy.html#consent" target="_blank" rel="noopener">Согласие на обработку данных</a>
@@ -947,8 +1012,10 @@
 
 <div class="cookie" id="cookie" role="region" aria-label="Об использовании cookie">
   <p>Мы используем cookie, чтобы сайт работал корректно. Оставаясь на сайте, вы соглашаетесь с политикой конфиденциальности.</p>
-  <button class="btn btn--sm btn--primary" type="button" data-cookie="ok">Принять</button>
-  <button class="btn btn--sm btn--secondary" type="button" data-cookie="no">Отказаться</button>
+  <div class="cookie__actions">
+    <button class="btn btn--sm btn--primary" type="button" data-cookie="ok">Принять</button>
+    <button class="btn btn--sm btn--secondary" type="button" data-cookie="no">Отказаться</button>
+  </div>
 </div>
 
 <div class="modal" id="modal" role="dialog" aria-modal="true" hidden>
@@ -962,7 +1029,7 @@
 
       <div class="rq__panel-m" id="mP1" role="tabpanel" aria-labelledby="mT1">
         <form class="rq__form" data-form="parts" novalidate>
-          <h3 class="rq__title">Подберём деталь, шины или диски</h3>
+          <h3 class="rq__title">Подберём деталь, шины, диски, масло</h3>
           <div class="rq__grid">
             <div class="field">
               <label for="m-what">Что нужно</label>
@@ -970,6 +1037,8 @@
                 <option value="parts">Запчасти</option>
                 <option value="tires">Шины</option>
                 <option value="wheels">Диски</option>
+                <option value="engine">Двигатель</option>
+                <option value="oils">Автомасло</option>
               </select>
             </div>
             <div class="field">
@@ -1001,8 +1070,7 @@
           <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <label class="consent">
             <input type="checkbox" name="consent" class="consent__box" required>
-            <span>Согласен на обработку персональных данных</span>
-            <a href="policy.html" target="_blank" rel="noopener">политикой конфиденциальности</a>
+            <span>Согласен на обработку персональных данных и&nbsp;принимаю <a href="policy.html" target="_blank" rel="noopener">политику конфиденциальности</a></span>
           </label>
           <div class="rq__foot">
             <button class="btn btn--primary" type="submit">Отправить заявку</button>
@@ -1065,8 +1133,7 @@
           <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <label class="consent">
             <input type="checkbox" name="consent" class="consent__box" required>
-            <span>Согласен на обработку персональных данных</span>
-            <a href="policy.html" target="_blank" rel="noopener">политикой конфиденциальности</a>
+            <span>Согласен на обработку персональных данных и&nbsp;принимаю <a href="policy.html" target="_blank" rel="noopener">политику конфиденциальности</a></span>
           </label>
           <div class="rq__foot">
             <button class="btn btn--primary" type="submit">Получить расчёт</button>
@@ -1098,18 +1165,18 @@
   var CONFIG = {
     PHONE:          "+7 (962) 164-31-46",
     TEL:            "+79621643146",
-    EMAIL:          "info@autoboom.ru",
+    EMAIL:          "nds_137@mail.ru",
     ADDRESS:        "г. Иваново, ул. Красных Зорь, 8",
     TG_URL:         "https://t.me/nds137rus",
     MAX_URL:        "https://max.ru/join/oWU05l0ZbDzXZfgCS7OIA2gwcXUiGLxqePAqBYwK_jc",
     VK_URL:         "https://vk.ru/id131766175",
-    YT_URL:         "https://youtube.com/@autoboom",
+    AVITO_URL:      "https://www.avito.ru/user/2ca2b7c6974ec5e779435b1f522c114f/profile/all?src=sharing&sellerId=2ca2b7c6974ec5e779435b1f522c114f",
     DOMAIN:         "autoboom.ru",
     FORM_ENDPOINT:  "https://api.autoboom.ru/lead",
     YANDEX_MAP_EMBED: "https://yandex.ru/map-widget/v1/?ll=40.954706%2C57.001662&z=17&pt=40.954706%2C57.001662%2Cpm2rdm&l=map",
     METRIKA_ID:     "00000000"
   };
 </script>
-<script src="script.js?v=17"></script>
+<script src="script.js?v=44"></script>
 </body>
 </html>
