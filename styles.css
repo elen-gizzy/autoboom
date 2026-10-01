@@ -412,6 +412,14 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-h);line-height:1.1;font-weight:700}
   background-image:url("assets/img/oils/oil-plate.webp");
   transform:none
 }
+/* затемнение фото в плашке автомасел — 25% и без градиента: общее правило
+   .plaque::after кладёт 95%→55% слева направо, а нужно ровное затемнение по
+   всей плашке. Подбиралось на глаз: 30% -> 50% («на 20% больше») -> 60% -> 25%.
+   Плитки поверх держат свои rgba(23,27,31,.6) + backdrop-filter, поэтому
+   текст лежит на них, а не на фото. */
+#oils .plaque::after{
+  background-image:linear-gradient(rgba(15,18,20,.25),rgba(15,18,20,.25))
+}
 .sel{
   position:relative;display:grid;grid-template-columns:1fr 1.15fr;gap:48px;align-items:center;
   background:var(--surface-2);border:1px solid var(--line);
