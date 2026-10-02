@@ -409,7 +409,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-h);line-height:1.1;font-weight:700}
    отдаёт wheels-plate.jpeg, поэтому переопределяем и картинку, и зеркалирование
    (scaleX(-1) в общем правиле перевернуло бы этикетки на канистрах). */
 #oils .plaque::before{
-  background-image:url("assets/img/oils/oil-plate.webp");
+  background-image:url("assets/img/oils/oil-plate.webp?v=2");
   transform:none
 }
 /* затемнение фото в плашке автомасел — 40% и без градиента: общее правило
