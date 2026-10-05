@@ -13,7 +13,7 @@
 var CONFIG = Object.assign({
   PHONE: "+7 (962) 164-31-46",
   TEL: "+79621643146",
-  EMAIL: "nds_137@mail.ru",
+  EMAIL: "nds137@yandex.com",
 ADDRESS: "г. Иваново, ул. Красных Зорь, 8",
   TG_URL: "https://t.me/nds137rus",
   MAX_URL: "https://max.ru/join/oWU05l0ZbDzXZfgCS7OIA2gwcXUiGLxqePAqBYwK_jc",
